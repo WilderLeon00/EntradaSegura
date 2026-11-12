@@ -66,7 +66,7 @@ def cargar_menu(rol_usuario, nombre_real):
     elif rol_usuario == "administrador":
         menuAdminVentana(ventana, usuarios, nombre_real, mostrar_login, sistema_boletos_db)
     elif rol_usuario == "cliente":
-        menuClienteVentana(ventana, usuarios, nombre_real, mostrar_login)
+        menuClienteVentana(ventana, usuarios, nombre_real, mostrar_login, sistema_boletos_db)
 
 
 def mostrar_login():
